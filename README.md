@@ -22,3 +22,11 @@ The solution integrates rule-based checks with a reference dataset built from of
 ---
 
 ## Repository Structure
+
+├── ingestion_script.py # Downloads and processes ADGM reference sources
+├── review_docx.py # Main document review pipeline
+├── adgm_reference_chunks.json # Processed ADGM reference dataset (non-AI search)
+├── data/ # Downloaded ADGM documents
+├── examples/ # Sample input and output files
+├── README.md # Project documentation
+└── requirements.txt # Python dependencies
